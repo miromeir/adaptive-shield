@@ -13,7 +13,6 @@ def parse_animals(table):
         name=row[0].text.strip() if row[0].text else ""
         adjs = row[5].text.split(",") if row[5].text else []
         for adj in adjs:
-            print(adj)
             if not adjectives.get(adj):
                 adjectives[adj] = [name]
             else:
