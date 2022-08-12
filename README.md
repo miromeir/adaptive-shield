@@ -9,3 +9,13 @@ Dinner break at 20:07-20:15
 21:04 - It's not a bug, there's actually a colateral adjective "?". Thanks for that.
 
 (Ignoring the dumb bug) took 1hr13min
+
+Instructions:
+```
+git clone git@github.com:miromeir/adaptive-shield.git
+cd adaptive-shield
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+python3 main.py
+```
